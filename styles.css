@@ -209,6 +209,7 @@ body {
 
   .hero .form-control a {
     font-size: 0.7rem;
+    height: 27px;
   }
 
   .hero .section-two {
@@ -259,6 +260,19 @@ body {
 @media screen and (max-width: 400px) {
   .header .nav .logo {
     margin-left: 30%;
+  }
+
+  .hero .form-control {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+
+  .hero .form-control a {
+    display: inline-block;
+    width: 165px;
+    font-size: 0.8rem;
+    text-align: center;
   }
 
   .hero .section-two {
